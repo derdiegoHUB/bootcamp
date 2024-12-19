@@ -14,15 +14,10 @@ Power BI: Usado para diseñar dashboards interactivos que muestran de manera vis
 Photoshop y Midjourney: Aplicados en el diseño de elementos visuales tanto para los dashboards como para la documentación del proyecto.
 
 Objetivos:
-Analizar patrones de transacciones y comportamientos de usuarios.
-Explorar la relación entre cashback, lealtad y montos de transacción.
-Comparar el rendimiento en dispositivos móviles vs. computadoras.
-Identificar oportunidades de optimización a través de la tasa de conversión y abandono.
-Hipótesis de Negocio
-Los usuarios que acumulan más puntos de lealtad son más propensos a realizar transacciones de mayor monto.
-Los meses con mayores tasas de conversión en general se correlacionan con un aumento en el uso de dispositivos móviles, indicando que la optimización para estos dispositivos es fundamental para maximizar las transacciones.
-Las categorías de productos con mayor cashback tienen un ticket promedio más alto.
-Los meses en los que se reportan altos márgenes de ganancia en categorías específicas son seguidos por un incremento en las ganancias generales, sugiriendo que la rentabilidad de estas categorías impulsa el crecimiento del negocio.
+Analizar patrones que sirvan para establecer un framework para en un futuro combinar con el análisis de charts pasados y futuros y lograr proyectar tendencias del componente musical que sirvan para orientan la producción de nuevos lanzamientos. 
+Comparar el comportaiento de diferentes tipos de contenidos y ver a qué metricas atender para hacer foco en el desarrollo e inversión.
+Tambie´n parte del aprendizaje con este trabajo es ver qué variables son las más relevantes para definir el ADN de una canción. Así como se afirma esto también como aprendizaje, trabajar un dataset global hace más complejo entender ciertos comportamientos que si estuvieran en un marco de tiempo y país podrían dar resultados más tangibles. 
+
 Plan de Métricas
 Para las pruebas de hipótesis de negocio, se plantean 13 KPIs que permitan examinar el comportamiento de los usuarios entre las distintas transacciones.
 
