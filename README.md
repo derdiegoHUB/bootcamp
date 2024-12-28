@@ -14,9 +14,13 @@ Como dataset se utiliza un conjunto de datos obtenido de Kaggle que muestra las 
 
 Herramientas
 Excel: Para hacer una primera limpieza ya que el dataset tenía muchos problemas de caracteres no tradicionales y se necesitaba tener eso bien para requerir la información de Copilot. También se utilizó para una limpieza en lo que es géneros musicales a través de una matriz de detección de género y asignación a uno pre establecido y evitar tener un listado de 500 géneros. Un gran problema con los géneros musicale ses la localización geog´rafica o idiomática que genera múltiples sub géneros como rock naciona, urbano latino o pop italiano.
+
 BigQuery: Utilizado para almacenar los datos, ejecutar consultas SQL y extraer la información necesaria para realizar el análisis exploratorio.
+
 Power Query: Herramienta empleada para la limpieza y transformación de datos antes de proceder con el análisis en Power BI.
+
 Power BI: Usado para diseñar dashboards interactivos que muestran de manera visual los resultados del análisis.
+
 Photoshop: Aplicados en el diseño de elementos visuales tanto para los dashboards como para la documentación del proyecto.
 
 Objetivos:
@@ -24,10 +28,24 @@ Analizar patrones que sirvan para establecer un framework para en un futuro comb
 Comparar el comportaiento de diferentes tipos de contenidos y ver a qué metricas atender para hacer foco en el desarrollo e inversión.
 
 
-Plan de Métricas
-Para las pruebas de hipótesis de negocio, se plantean 13 KPIs que permitan examinar el comportamiento de los usuarios entre las distintas transacciones.
+**Métricas de Rendimiento**
+Age: es la antiguedad del lanzamiento, calculado a través de fecha hoy() - Album (Releades Date). A más de 180 días sería "Deep Catálogo", más de 120 días sería ¨Catálogo¨ y sino "Recent Release"
+Popularidad x Artista:
+Popularidad x Género:
+Cantidad de tracks x idioma:
+Cantidad de tracks por años de release_date (album)
 
-A continuación, se detallan las métricas utilizadas, junto con su cálculo y los puntos de vista desde los cuales se pueden analizar. Se puede ver con más detalles en la documentación del Plan de Métricas
+**Group by Genre:**
+
+  Idioma
+    
+  País
+  
+  Single Vs Album
+  
+  Duración Promedio en minutos y segundos
+  
+  BPM Promedio
 
 
 
@@ -108,24 +126,7 @@ Hay un problema en la relación entre la tabla de Tracks y de Album que no termi
 
 **Data Flow**
 
-**Métricas de Rendimiento**
-Age: es la antiguedad del lanzamiento, calculado a través de fecha hoy() - Album (Releades Date). A más de 180 días sería "Deep Catálogo", más de 120 días sería ¨Catálogo¨ y sino "Recent Release"
-Popularidad x Artista:
-Popularidad x Género:
-Cantidad de tracks x idioma:
-Cantidad de tracks por años de release_date (album)
 
-**Group by Genre:**
-
-  Idioma
-    
-  País
-  
-  Single Vs Album
-  
-  Duración Promedio en minutos y segundos
-  
-  BPM Promedio
 
 **Análisis de datos**
 
